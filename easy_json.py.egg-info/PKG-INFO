@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: easy-json.py
-Version: 0.0.9
+Version: 0.0.11
 Summary: This can do easy for json.
 Home-page: https://github.com/tuna2134/easy-json.py
 Author: DMS
@@ -28,7 +28,7 @@ Description: #easy_json
         async version
         
         ```py
-        import easy_json
+        import async_easy_json
         import asyncio
         
         e=easy_json.async_json("data.json")

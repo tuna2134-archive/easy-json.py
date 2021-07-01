@@ -20,7 +20,7 @@ print(data["test"])
 async version
 
 ```py
-import easy_json
+import async_easy_json
 import asyncio
 
 e=easy_json.async_json("data.json")
