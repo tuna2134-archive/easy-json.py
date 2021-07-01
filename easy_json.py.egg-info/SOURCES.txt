@@ -1,0 +1,7 @@
+README.md
+setup.py
+easy_json/__init__.py
+easy_json.py.egg-info/PKG-INFO
+easy_json.py.egg-info/SOURCES.txt
+easy_json.py.egg-info/dependency_links.txt
+easy_json.py.egg-info/top_level.txt
