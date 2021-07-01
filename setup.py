@@ -8,13 +8,13 @@ def _requires_from_file(filename):
 
 setuptools.setup(
     name="easy-json.py",
-    version="0.0.8",
+    version="0.0.9",
     author="DMS",
-    author_email="1ntegrale9uation@gmail.com",
+    author_email="masato190411@gmail.com",
     description="This can do easy for json.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/1ntegrale9/echidna",
+    url="https://github.com/tuna2134/easy-json.py",
     install_requires=_requires_from_file('rqs.txt'),
     packages=setuptools.find_packages(),
     classifiers=[
