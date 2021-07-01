@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: easy-json.py
-Version: 0.0.11
+Version: 0.0.12
 Summary: This can do easy for json.
 Home-page: https://github.com/tuna2134/easy-json.py
 Author: DMS
@@ -12,7 +12,9 @@ Description: #easy_json
         
         How to use
         
-        usually version
+        ##usually version
+        
+        ###read
         
         ```py
         import easy_json
@@ -25,17 +27,33 @@ Description: #easy_json
         #test
         ```
         
-        async version
+        ###write
+        
+        ```py
+        import easy_json
+        
+        e=easy_json.mjson("data.json")
+        
+        data=e.read()
+        data["test"]="test"
+        e.write(data)
+        
+        ```
+        
+        ##async version
+        
+        ###write
         
         ```py
         import async_easy_json
         import asyncio
         
         e=easy_json.async_json("data.json")
+        data=e.read()
         
         async def main():
-          data=await e.read()
-          print(data["test"])
+          data["test"]="test"
+          await e.write(data)
           
         loop = asyncio.get_event_loop()
         loop.run_until_complete(main())

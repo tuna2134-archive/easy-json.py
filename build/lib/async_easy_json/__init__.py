@@ -5,7 +5,7 @@ class async_json:
   def __init__(self,name):
     self.name=name
     
-  async def read(self):
+  def read(self):
     with open(self.name, mode="r") as f:
       data = json.load(f)
     return data
